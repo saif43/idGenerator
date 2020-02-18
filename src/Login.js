@@ -5,12 +5,21 @@ import { Form, Button } from "react-bootstrap";
 import { Container, Row, Col } from "react-grid-system";
 import show from "./assets/show.jpg";
 import Image from "react-bootstrap/Image";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 export default function Login() {
   return (
     <Row>
       <Col xs={6}>
-        <Image src={show} fluid />
+        <Container>
+          <MDBContainer className="lg-6">
+            <MDBRow>
+              <MDBCol>
+                <img src={show} className="img-fluid" alt="" />
+              </MDBCol>
+            </MDBRow>
+          </MDBContainer>
+        </Container>
       </Col>
       <Col xs={6}>
         <Container>
