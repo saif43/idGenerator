@@ -1,7 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 // eslint-disable-next-line
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-grid-system";
 import show from "./assets/show.jpg";
 import Image from "react-bootstrap/Image";
 
