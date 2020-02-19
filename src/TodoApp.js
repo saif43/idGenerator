@@ -3,7 +3,7 @@ import React from "react";
 class TodoApp extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { items: [], label: "" };
+    this.state = { items: [], label: "", text: "" };
     this.handleLabelChange = this.handleLabelChange.bind(this);
     this.handleTextChange = this.handleTextChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -62,7 +62,9 @@ class TodoApp extends React.Component {
       text: ""
     }));
 
-    this.sendData();
+    document.getElementById("new-label").focus();
+
+    console.log(this.state.items.concat(newItem));
   }
 }
 

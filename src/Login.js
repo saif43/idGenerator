@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Form, Button } from "react-bootstrap";
 import { Container, Row, Col } from "react-grid-system";
 import show from "./assets/show.jpg";
-import Image from "react-bootstrap/Image";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 export default function Login() {
