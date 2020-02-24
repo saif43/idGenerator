@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Login from "./components/Login";
+import Mainpage from "./components/Main/Mainpage";
 
 export default class App extends Component {
   render() {
-    return <Login />;
+    return <Mainpage />;
   }
 }
