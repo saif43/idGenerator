@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () => {
+const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-md navbar-dark fixed-top" id="change">
           <a className="navbar-brand" href="#">Carousel</a>
@@ -27,4 +27,4 @@ const Header = () => {
     )
 };
 
-export default Header;
+export default Navbar;

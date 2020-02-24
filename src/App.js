@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import Mainpage from "./components/Main/Mainpage";
-import Header from "./components/template/Header";
-import Sidebar from "./components/template/Sidebar/Sidebar";
+import Landing from "./components/Landing";
+import Navbar from "./components/template/Navbar";
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Sidebar />
-        <Mainpage />
+        <Navbar />
+        <Landing />
       </div>
     );
   }
